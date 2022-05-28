@@ -70,7 +70,9 @@ const Unlock: FC = () => {
           <Logo />
         </div>
 
-        <strong className={styles.heading}>Elrond Delegation Manager</strong>
+        <strong className={styles.heading}>
+          ProCrypto Delegation Manager for Elrond
+        </strong>
 
         <div className={styles.description}>
           {`Delegate Elrond (${network.egldLabel}) and earn up to 25% APY!`}

@@ -46,7 +46,7 @@ const Navbar: FC = () => {
           <EGLD />
         </span>
 
-        <span className={styles.title}>Delegation Manager</span>
+        <span className={styles.title}>ProCrypto Delegation Manager</span>
       </Link>
 
       <div className={styles.buttons}>
