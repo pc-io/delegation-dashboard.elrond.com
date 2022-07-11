@@ -1,8 +1,8 @@
 import React from 'react';
-import { DappProvider } from '@elrondnetwork/dapp-core/wrappers';
-import { TransactionsToastList } from '@elrondnetwork/dapp-core/UI/TransactionsToastList';
-import { SignTransactionsModals } from '@elrondnetwork/dapp-core/UI/SignTransactionsModals';
 import { NotificationModal } from '@elrondnetwork/dapp-core/UI/NotificationModal';
+import { SignTransactionsModals } from '@elrondnetwork/dapp-core/UI/SignTransactionsModals';
+import { TransactionsToastList } from '@elrondnetwork/dapp-core/UI/TransactionsToastList';
+import { DappProvider } from '@elrondnetwork/dapp-core/wrappers';
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom';
 import Layout from 'components/Layout';
 import { network, walletConnectBridge, walletConnectDeepLink } from 'config';

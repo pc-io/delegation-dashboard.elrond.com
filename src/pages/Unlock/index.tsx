@@ -2,9 +2,9 @@ import React, { FC, useEffect } from 'react';
 
 import { useGetAccountInfo } from '@elrondnetwork/dapp-core/hooks';
 import { ExtensionLoginButton } from '@elrondnetwork/dapp-core/UI/extension/ExtensionLoginButton';
-import { WebWalletLoginButton } from '@elrondnetwork/dapp-core/UI/webWallet/WebWalletLoginButton';
 import { LedgerLoginButton } from '@elrondnetwork/dapp-core/UI/ledger/LedgerLoginButton';
 import { WalletConnectLoginButton } from '@elrondnetwork/dapp-core/UI/walletConnect/WalletConnectLoginButton';
+import { WebWalletLoginButton } from '@elrondnetwork/dapp-core/UI/webWallet/WebWalletLoginButton';
 import { useNavigate } from 'react-router-dom';
 
 import Extension from 'assets/Extension';

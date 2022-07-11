@@ -1,7 +1,6 @@
-import { getChainID } from '@elrondnetwork/dapp-core/utils/network';
-
 import { useGetAccountInfo } from '@elrondnetwork/dapp-core/hooks';
 import { sendTransactions } from '@elrondnetwork/dapp-core/services/transactions';
+import { getChainID } from '@elrondnetwork/dapp-core/utils/network';
 
 import {
   ContractFunction,
