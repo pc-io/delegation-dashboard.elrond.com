@@ -93,7 +93,7 @@ export const Stake = () => {
       {isLoading || isError || isEmpty ? (
         <div className={styles.wrapper}>
           <strong className={styles.heading}>
-            Welcome to Delegation Dashboard!
+            Welcome to the ProCrypto Delegation Dashboard for Elrond!
           </strong>
 
           <div className={styles.logo}>
@@ -108,7 +108,7 @@ export const Stake = () => {
             {isLoading
               ? 'Retrieving staking data...'
               : isError
-              ? 'There was an error trying to retrieve staking data.'
+              ? 'There was an error trying to retrieve staking data - maybe you did not stake anything with us yet?'
               : `Currently you don't have any ${network.egldLabel} staked.`}
           </div>
 
