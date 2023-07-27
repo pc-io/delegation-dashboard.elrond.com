@@ -11,6 +11,9 @@
 # production
 /build
 
+# old
+/mainnet-old
+
 # misc
 .DS_Store
 .env.local

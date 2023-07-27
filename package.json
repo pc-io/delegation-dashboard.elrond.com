@@ -37,19 +37,19 @@
     "yup": "^0.32.11"
   },
   "scripts": {
-    "start": "HTTPS=true react-scripts start",
+    "start": "HTTPS=true react-scripts --openssl-legacy-provider start",
     "start-testnet": "npm run copy-testnet-config & npm run start",
     "start-devnet": "npm run copy-devnet-config & npm run start",
     "start-mainnet": "npm run copy-mainnet-config & npm run start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "build-testnet": "npm run copy-testnet-config & npm run build",
     "build-devnet": "npm run copy-devnet-config & npm run build",
     "build-mainnet": "npm run copy-mainnet-config & npm run build",
-    "test": "react-scripts test",
+    "test": "react-scripts --openssl-legacy-provider test",
     "copy-mainnet-config": "shx cp ./src/config.mainnet.ts ./src/config.ts",
     "copy-testnet-config": "shx cp ./src/config.testnet.ts ./src/config.ts",
     "copy-devnet-config": "shx cp ./src/config.devnet.ts ./src/config.ts",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "lint": "eslint --ext js,ts,tsx src"
   },
   "eslintConfig": {
