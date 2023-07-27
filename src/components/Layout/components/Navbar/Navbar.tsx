@@ -46,7 +46,7 @@ export const Navbar = () => {
           <MultiversX />
         </span>
 
-        <span className={styles.title}>ProCrypto Delegation Manager</span>
+        <span className={styles.title}>ProCrypto Delegation Dashboard</span>
       </Link>
 
       <div className={styles.buttons}>
